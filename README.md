@@ -1,7 +1,7 @@
 # Question_Records
 Record the questions encountered in data clearning
 
-- 1.在筛选同时不满足两个条件的数据时，数据库中可以使用sql语句完成
+- 1.在筛选同时不满足两个条件的数据时，数据库中可以使用sql中的minus语句完成
 ```sql
 select * from
 (
